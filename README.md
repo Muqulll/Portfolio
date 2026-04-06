@@ -1,16 +1,42 @@
-# React + Vite
+# 0x01 | Terminal Portfolio v1.0
+> **Status:** Kernel_Loaded ●
+> **Architect:** Muqulll (M. Abdul Muqeet)
+> **Environment:** Arch Linux | Qt6 | React | Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 🖥️ Executive Summary
+A high-performance, developer-centric portfolio designed with a low-level systems aesthetic. This project bridges the gap between modern web frontend (React/Tailwind) and a deep appreciation for memory management and system-level logic.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ The Tech Stack
+* **Frontend:** React 18 + Vite (for rapid HMR)
+* **Styling:** Tailwind CSS (Amethyst/Midnight Aesthetic)
+* **Inspiration:** C++ Memory Management & Arch Linux Minimalisms
+* **Deployment:** Vercel CI/CD Pipeline
 
-## React Compiler
+## 🧠 Key Features
+### 1. The Malloc Monitor
+A live React component that simulates real-time memory allocation logic. 
+* **Session Uptime:** Tracks the persistent connection to the "Kernel."
+* **Heap Allocation Simulation:** Visualizes `malloc(sizeof(brain))` success rates.
+* **Pointer Validation:** Mimics strict null-check logic common in C++ development.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 2. Systems-Centric UI
+* **Terminal Aesthetic:** Header-less design inspired by the "Black Box" terminal emulator.
+* **Responsive Binaries:** Optimized for mobile viewing on high-PPI devices (Samsung A32 tested).
 
-## Expanding the ESLint configuration
+## 🚀 Local Installation
+To clone and run the environment on your local machine:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+# Clone the repository
+git clone [https://github.com/Muqulll/Portfolio.git](https://github.com/Muqulll/Portfolio.git)
+
+# Enter the directory
+cd Portfolio
+
+# Install dependencies
+npm install
+
+# Execute development binary
+npm run dev
